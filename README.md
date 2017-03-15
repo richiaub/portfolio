@@ -1,1 +1,6 @@
-# portfolio
+<h1>Acerca de mi</h1>
+<h5>Mi nombre es Ricardo Alejandro Aubone. Naci en la provincia de San Juan, Argentina. Gracias al esfuerzo de mi madre al que estaré eternamente agradecido, me inicié en la informática siendo adolescente.</br>
+En un principio fué con el diseño gráfico y la maquetación de paginas web. Estudiando la carrera de periodismo fui el primero en la universidad en la que asistia en crear un periódico digital en el año 2000.</br>
+Por cuestiones económicas tuvimos que irnos de Argentina y emigrar hacia España. Aunque en estos años la mayoria de mis trabajos no estuvieron relacionados con la informática, nunca perdí la esperanza de volver a dedicarme a ello.</br>
+Desde Septiembre del 2016 empecé a estudiar programación gracias al apoyo de mis hermanos que se dedican al marketing y al diseño web. Soy autodidacta, ademas de seguir los cursos dados en la plataforma www.platzi.com leo mucho e investigo buscando en google, siguiendo ciertos blog de programación, suscrito en varios canales especializados en youtube, etc.</br>
+Mi deseo es llegar a ser un buen programador, sin dejar de especializarme y no conformándome con lo que ya se. Siempre atento a los cambios que el mundo de la programación son el pan de cada día. También quiero pertenecer a un grupo de trabajo que me motive a desarrollar cosas nuevas.</h5>

@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	font-family: 'Cabin', sans-serif
+}
+
+.cabecera{
+	
+	height: 50px;
+	
+    margin: auto;
+
+}
+.lineaHead{
+	background-color: #2d626d;
+	height: 25px;
+	display: flex;
+    margin: auto;
+}
+
+.listaMenu{
+	display: flex;
+	position: absolute;
+	
+    right: 35px;
+
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.menuSup a {
+	text-decoration: none;
+    color: #2d626d;
+    font-size: 20px;
+    
+
+   
+
+}
+.listaMenu li{
+  
+  padding-right:8px;
+     border: 3px solid transparent;
+  position: relative;
+
+ 
+  padding-bottom:5px
+}
+
+.listaMenu li:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  background: #2d626d;
+  z-index: -1;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+
+
+
+
+.line.-bottom {
+  bottom: -3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+
+
+.listaMenu li:hover:after,
+.listaMenu li:active:after {
+  transform: scale3d(0, 1, 1);
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+
+
+.listaMenu li:hover .line.-bottom,
+.listaMenu li:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}

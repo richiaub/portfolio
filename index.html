@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link href="https://fonts.googleapis.com/css?family=Cabin|Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin|Ubuntu:500i" rel="stylesheet">
 </head>
 <body>
 <header class="cabecera">
@@ -13,24 +13,29 @@
 
 	<nav class="menuSup">
 		<ul class="listaMenu">
-			<li><a href="">portafolio</a></li>
+			<li><a href="#portafolio">portafolio</a></li>
 			<li><a href="">conocimientos</a></li>
 			<li><a href="">acerca de mi</a></li>
 			<li><a href="">english</a></li>
 		</ul>
 	</nav>
 </header>
-<section class="portada">
+<section class="portada background">
+<div class="titulo">
+<div class="grupoTit">
 <h1 class="nombre">Ricardo Aubone</h1>
-<hr class="separador"></hr>
+<div class="separador"></div>
 <h3 class="descripcion">programador y diseñador web</h3>
 <ul class="redes">
-	<li><img src="images/linkedinico.png" width="30px"></li>
-	<li><img src="images/githubico.png" width="30px"></li>
-	<li><img src="images/facebook-icon.png" width="30px"></li>
+	<li><a class="linkedin" href="" target="_blank"><p class="textRedes"> linkedin</p></a></li>
+	<li><a class="github" href="https://github.com/richiaub" target="_blank"><p class="textRedes">github</p></a></li>
+	<li><a class="facebook" href="https://www.facebook.com/raubone" target="_blank"><p class="textRedes">facebook</p></a></li>
 
 
 </ul>
+</div>
+</div>
+
 <img class="avatar" src="images/avatar.png" alt="Ricardo Aubone"></img>
 </section>
 <hr class="separadorCuerpo"></hr>
@@ -43,8 +48,10 @@
 			<li>english</li>
 		</ul>
 	</nav>
+
+	
+	<article id="portafolio" class="portafolio">
 	<h2 class="titulo">Portafolio</h2>
-	<article class="portafolio">
 		<img class="imgPort"src="images/chequebo.jpg" alt="pagina chequebo">	
 		<img class="imgPort"src="images/invie.jpg" alt="pagina invie">	
 

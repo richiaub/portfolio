@@ -142,6 +142,18 @@ body{
     font-size: 13px;
     overflow: hidden;
 }
+.facebook{
+	-webkit-animation: opacity 3s cubic-bezier(1,.09,1,-0.15);
+  animation: opacity 3s cubic-bezier(1,.09,1,-0.15);
+}
+.github{
+	-webkit-animation: opacity 3s cubic-bezier(1,.09,1,-0.15);
+  animation: opacity 3s cubic-bezier(1,.09,1,-0.15);
+}
+.linkedin{
+	 -webkit-animation: opacity 3s cubic-bezier(1,.09,1,-0.15);
+  animation: opacity 3s cubic-bezier(1,.09,1,-0.15);
+}
 .redesLi{
 	margin: auto 25px auto 25px;
 }
@@ -242,3 +254,72 @@ opacity: 1;
      -o-transition-timing-function: cubic-bezier(0.110, 0.470, 0.940, 0.490); 
         transition-timing-function: cubic-bezier(0.110, 0.470, 0.940, 0.490); /* custom */
 }
+
+
+.tituloPort{
+	    color: #2d626d ;
+
+}
+
+
+.container{
+ display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.col-1-4{
+  
+  padding: 20px 0;
+  margin-right: 30px
+}
+
+.img-container{
+  
+  position: relative;
+  overflow: hidden;
+  border: 1px #2d626d solid;
+	border-radius: 5px 5px 60px 0px;
+}
+
+.img-caption{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top: 5em;
+  background: #3E3E3E;
+  background: rgba(40, 40, 40, 0.82);
+  color: white;
+  cursor: pointer;
+  text-align: center; 
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: all 0.8s ease-out;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.img-caption a{
+	color: #fff;
+}
+
+.img-container:hover .img-caption{
+	opacity: 0;
+}
+
+.bottom-top{
+	top: 100%;
+	left: 0;
+}
+.img-container:hover .img-caption{
+	top: 0;
+	left: 0;
+	transition: all 0.6s ease-out;
+}
+
+.img-container:hover .img-caption {
+	opacity: 1;
+}
+

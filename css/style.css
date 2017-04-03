@@ -6,14 +6,14 @@ body{
 
 .cabecera{
 	
-	height: 50px;
+	height: 3.5em;
 	
     margin: auto;
 
 }
 .lineaHead{
 	background-color: #2d626d;
-	height: 10px;
+	height: 1em;
 	display: flex;
     margin: auto;
 }
@@ -22,10 +22,10 @@ body{
 	display: flex;
 	position: absolute;
 	
-    right: 35px;
+    right: 3em;
 
     list-style:none;
-    padding: 10px;
+    padding: 0.5em;
     margin: 0;
 
 }
@@ -33,7 +33,7 @@ body{
 .menuSup a {
 	text-decoration: none;
     color: #2d626d;
-    font-size: 20px;
+    font-size: 1.23em;
     
 
    
@@ -41,12 +41,12 @@ body{
 }
 .listaMenu li{
   
-  padding-right:8px;
+  padding-right:0.4em;
      border: 3px solid transparent;
   position: relative;
 
  
-  padding-bottom:5px
+  padding-bottom:0.5em;
 }
 
 .listaMenu li:after {
@@ -105,10 +105,8 @@ body{
 	background-size: cover;
 	width: 80%;
 	height: auto;
-	margin: 25px auto;
-	display: flex;
-	 	
-  
+	margin: 3em auto;
+	display: flex;  
   color: white;
   justify-content: space-between;
 }
@@ -136,10 +134,10 @@ body{
 	display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 350px;
+    
     padding-left: 0;
     
-    font-size: 13px;
+    font-size: 1.5em;
     overflow: hidden;
 }
 .facebook{
@@ -159,12 +157,12 @@ body{
 }
 .nombre{
 	text-align: center;
-	font-size: 35px;
-	margin-bottom: 5px;
+	font-size: 2.3em;
+	margin-bottom: 0.5em;
 }
 .descripcion{
 	text-align: center;
-    margin-top: 5px;
+    margin-top: 0.4em;
     font-family: 'Ubuntu', sans-serif;
 }
 .ulRedes{
@@ -180,7 +178,6 @@ body{
 .navLayer{
 	background-color: #C5D4D7;
     border-radius: 5px 5px 45px 0;
-    padding: 5px;
     display: block;
 
 }
@@ -196,7 +193,7 @@ body{
 	padding: 0;
 }
 .listaLayer li{
-	padding: 8px;
+	padding: 0.5em;
     border-radius: 50%;
     margin: auto;
 }
@@ -204,13 +201,13 @@ body{
 	border-radius: 50%;
 }
 .linklabel{
-	font-size: 17px;
+	font-size: 1em;
 	cursor: pointer;
 	background-color: #2d626d;
 	color: white;
 	padding: 2px ;
 	margin: auto;
-    border-radius: 8px;
+    border-radius: 0.5em;
     position: absolute;
     margin-top: 0.5%;
     border: 1px white solid;
@@ -271,7 +268,7 @@ opacity: 1;
 .col-1-4{
   
   padding: 20px 0;
-  margin-right: 30px
+  margin-right: 4em;
 }
 
 .img-container{
